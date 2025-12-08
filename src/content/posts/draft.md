@@ -1,12 +1,13 @@
 ---
-title: Draft Example
-published: 2022-07-01
+title: 草稿
+published: 2025-12-08
 tags: [Markdown, Blogging, Demo]
 category: Examples
 draft: true
 ---
 
-# This Article is a Draft
+# 不要问为什么草稿放这里
+### 这是计划的一部分
 
 This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
 

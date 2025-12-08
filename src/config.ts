@@ -22,7 +22,7 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "液体猫のblog",
 	subtitle: "一个acgn爱好者",
-	siteURL: "https://lq_cat_blog.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://lq-cat-blog.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-12-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -396,8 +396,8 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	title: "这是一些公告", // 公告标题
+	content: "相遇本身就是奇迹，欢迎你来到我的博客", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
