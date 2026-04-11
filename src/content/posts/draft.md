@@ -1,23 +1,43 @@
 ---
-title: 草稿
-published: 2025-12-08
-tags: [Markdown, Blogging, Demo]
+title: 总结一下个人觉得讲的很好的文章
+published: 2026-04-11
+tags: [Markdown, Blogging]
 category: Examples
 draft: true
 ---
 
-# 不要问为什么草稿放这里
-### 这是计划的一部分
+## 一.控制反转与依赖注入
+> 原文例+原文链接：
+### 简单说明
 
-This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
+一.什么是控制反转
+       首先我们可以回想一下平时写代码时是如何创建对象，比如说有一个类是People，那么我们在创建对象时需要的是如下操作：
 
-When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
+```java
+People people = new People();
+```
 
-```markdown
----
-title: Draft Example
-published: 2024-01-11T04:40:26.381Z
-tags: [Markdown, Blogging, Demo]
-category: Examples
-draft: false
----
+这是我们手动创建。那么控制反转就是把操作对象的调用权交给容器，容器会负责对象的装配和管理。我们不需要手动new对象，只需要声明即可，即由IOC容器来控制对象的创建和分配。
+————————————————
+
+原文链接：https://blog.csdn.net/yxr5555/article/details/136085818
+### 复杂理解
+
+#### 我对IoC(控制反转)和DI(依赖注入)的理解
+
+　　在平时的java应用开发中，我们要实现某一个功能或者说是完成某个业务逻辑时至少需要两个或以上的对象来协作完成，在没有使用Spring的时候，每个对象在需要使用他的合作对象时，自己均要使用像new object() 这样的语法来将合作对象创建出来，这个合作对象是由自己主动创建出来的，创建合作对象的主动权在自己手上，自己需要哪个合作对象，就主动去创建，创建合作对象的主动权和创建时机是由自己把控的，而这样就会使得对象间的耦合度高了，A对象需要使用合作对象B来共同完成一件事，A要使用B，那么A就对B产生了依赖，也就是A和B之间存在一种耦合关系，并且是紧密耦合在一起，而使用了Spring之后就不一样了，创建合作对象B的工作是由Spring来做的，Spring创建好B对象，然后存储到一个容器里面，当A对象需要使用B对象时，Spring就从存放对象的那个容器里面取出A要使用的那个B对象，然后交给A对象使用，至于Spring是如何创建那个对象，以及什么时候创建好对象的，A对象不需要关心这些细节问题(你是什么时候生的，怎么生出来的我可不关心，能帮我干活就行)，A得到Spring给我们的对象之后，两个人一起协作完成要完成的工作即可。
+
+　　所以**控制反转IoC(Inversion of Control)是说创建对象的控制权进行转移，以前\**创建对象的主动权和创建时机是由自己把控的\**，而现在这种权力转移到第三方**，比如转移交给了IoC容器，它就是一个专门用来创建对象的工厂，你要什么对象，它就给你什么对象，有了 IoC容器，依赖关系就变了，原先的依赖关系就没了，它们都依赖IoC容器了，通过IoC容器来建立它们之间的关系。
+
+　　这是我对Spring的IoC**(控制反转)**的理解。DI**(依赖注入)**其实就是IOC的另外一种说法，DI是由Martin Fowler 在2004年初的一篇论文中首次提出的。他总结：***\*控制的什么被反转了？就是：获得依赖对象的方式反转了。\****
+
+—————————————————
+
+原文链接:[依赖注入和控制反转的理解，写的太好了。-CSDN博客](https://blog.csdn.net/bestone0213/article/details/47424255)
+### 二.反向代理（讲的太清楚了，力荐！作者的个人网站也有很多优质内容）
+> 因为太长我直接放原文链接了
+原文链接：[深入理解 http 反向代理（nginx） - 知乎](https://zhuanlan.zhihu.com/p/464965616)
+
+
+
+
