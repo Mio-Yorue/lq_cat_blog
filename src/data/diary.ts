@@ -19,6 +19,12 @@ const diaryData: DiaryItem[] = [
 		date: "2025-12-8T10:30:00Z",
 		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
 	},
+	{
+		id: 1,
+		content: "今天看完了pa饭",
+		date: "2026-04-11T12:30:00Z",
+		images: ["/images/diary/pafood.png", "/images/diary/kawayi.png"],
+	},
 ];
 
 // 获取日记统计数据
