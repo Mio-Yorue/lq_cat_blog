@@ -2,12 +2,17 @@
 title: 总结一下个人觉得讲的很好的文章
 published: 2026-04-11
 tags: [Markdown, Blogging]
+title: 总结一下个人觉得讲的很好的文章
+published: 2026-04-11
+tags: [Markdown, Blogging]
 category: Examples
 draft: true
 ---
 
 ## 一.控制反转与依赖注入
+
 > 原文例+原文链接：
+
 ### 简单说明
 
 一.什么是控制反转
@@ -21,6 +26,7 @@ People people = new People();
 ————————————————
 
 原文链接：https://blog.csdn.net/yxr5555/article/details/136085818
+
 ### 复杂理解
 
 #### 我对IoC(控制反转)和DI(依赖注入)的理解
@@ -34,10 +40,8 @@ People people = new People();
 —————————————————
 
 原文链接:[依赖注入和控制反转的理解，写的太好了。-CSDN博客](https://blog.csdn.net/bestone0213/article/details/47424255)
+
 ### 二.反向代理（讲的太清楚了，力荐！作者的个人网站也有很多优质内容）
+
 > 因为太长我直接放原文链接了
-原文链接：[深入理解 http 反向代理（nginx） - 知乎](https://zhuanlan.zhihu.com/p/464965616)
-
-
-
-
+> 原文链接：[深入理解 http 反向代理（nginx） - 知乎](https://zhuanlan.zhihu.com/p/464965616)
