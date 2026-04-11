@@ -2,6 +2,9 @@
 title: 总结一下个人觉得讲的很好的文章
 published: 2026-04-11
 tags: [Markdown, Blogging]
+title: 总结一下个人觉得讲的很好的文章
+published: 2026-04-11
+tags: [Markdown, Blogging]
 category: Examples
 draft: true
 ---
