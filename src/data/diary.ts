@@ -15,15 +15,14 @@ export interface DiaryItem {
 const diaryData: DiaryItem[] = [
 	{
 		id: 1,
-		content: "樱花落下的速度是每秒5厘米（原文说是）",
-		date: "2025-12-8T10:30:00Z",
-		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
-	},
-	{
-		id: 1,
 		content: "今天看完了pa饭",
 		date: "2026-04-11T12:30:00Z",
 		images: ["/images/diary/pafood.png", "/images/diary/kawayi.png"],
+	},
+	{
+		id: 2,
+		content: "神秘微信输入法越用越卡占用还这么高，一气之下换Rime+雾凇拼音了",
+		date: "2026-11-06T12:30:00Z",
 	},
 ];
 
